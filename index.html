@@ -1,1 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - SHREE PFMS</title>
 
+<style>
+:root {
+    --primary-color: #1b5e20;
+    --primary-light: #e8f5e9;
+    --primary-dark: #0c3311;
+    --text-main: #2c3e50;
+    --text-muted: #64748b;
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.policy-card {
+    background: var(--card-bg);
+    padding: 50px 60px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-color);
+}
+
+/* Header Section */
+header {
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.5px;
+}
+
+.meta-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 14px;
+    color: var(--text-muted);
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.meta-item strong {
+    color: var(--text-main);
+}
+
+/* Intro Badge */
+.intro-text {
+    font-size: 16px;
+    color: #334155;
+    background: var(--primary-light);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 40px;
+}
+
+/* Content Sections */
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: var(--primary-dark);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p {
+    margin: 0 0 10px 0;
+    font-size: 15.5px;
+    color: #475569;
+}
+
+/* Permissions List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #475569;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+li b {
+    color: var(--primary-dark);
+    font-family: 'Courier New', Courier, monospace;
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 25px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+    }
+    .policy-card {
+        padding: 30px 24px;
+        border-radius: 12px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="policy-card">
+        
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="meta-info">
+                <div class="meta-item">
+                    <span>Application:</span>
+                    <strong>SHREE PFMS</strong>
+                </div>
+                <div class="meta-item">
+                    <span>Last Updated:</span>
+                    <strong>June 2026</strong>
+                </div>
+            </div>
+        </header>
+
+        <p class="intro-text">
+            SHREE PFMS is designed to simplify beneficiary management and Excel-based data processing for authorized users working within the Public Financial Management System (PFMS). Protecting user privacy is our top priority.
+        </p>
+
+        <section>
+            <h2>1. Information We Collect</h2>
+            <p>SHREE PFMS does not collect, transmit, sell, or share any personal information with the developer or any third party.</p>
+        </section>
+
+        <section>
+            <h2>2. Local Data Processing</h2>
+            <p>All Excel files, beneficiary records, and user settings are processed locally within the browser. Data remains securely on the user's device and is used solely to provide the extension's intended functionality.</p>
+        </section>
+
+        <section>
+            <h2>3. Browser Permissions</h2>
+            <p>To function seamlessly entirely on your device, the extension requires the following localized permissions:</p>
+            <ul>
+                <li><b>storage</b> – Used to save user preferences and locally stored extension data.</li>
+                <li><b>unlimitedStorage</b> – Allows local storage of large Excel datasets without data loss.</li>
+                <li><b>contextMenus</b> – Provides convenient right-click menu options for extension features.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Third-Party Services</h2>
+            <p>SHREE PFMS operates in complete isolation. It does not execute remote code, utilize advertising networks, embed analytics trackers, or collect telemetry datasets from users.</p>
+        </section>
+
+        <section>
+            <h2>5. Data Sharing</h2>
+            <p>No user information is ever sold, rented, transferred, or disclosed to any third party under any circumstances.</p>
+        </section>
+
+        <section>
+            <h2>6. Security</h2>
+            <p>Because all operations are contained inside your local browser environment, the security of your data relies on your device. Users are responsible for maintaining the security of their own computer systems and browser profiles.</p>
+        </section>
+
+        <section>
+            <h2>7. Changes to This Privacy Policy</h2>
+            <p>This Privacy Policy may be updated periodically to align with evolving browser standards. Any revisions will be published instantly on this page along with the updated effective date.</p>
+        </section>
+
+        <section>
+            <h2>8. Contact</h2>
+            <p>For questions, technical support, or feedback regarding SHREE PFMS, please reach out to the developer using the direct contact information listed on our official Chrome Web Store extension page.</p>
+        </section>
+
+        <footer>
+            © 2026 SHREE PFMS. All Rights Reserved.
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>
